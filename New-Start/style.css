@@ -1,13 +1,19 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-
-a {
-  color: orange;
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
 }
 
-a:hover {
-  color: black;
+#header .menu {
+  display: flex;
+  justify-content: space-between;
 }
-/*# sourceMappingURL=style.css.map */
+#header .menu .imgbox {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */
