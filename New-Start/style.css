@@ -16,4 +16,14 @@ body .imgbox img {
 #header .menu .imgbox {
   width: 100px;
   height: 100px;
+}
+#header .menu nav {
+  color: #864141;
+}
+
+#welcome {
+  background-image: url("Assets/header-bg.jpg");
+}
+#welcome .box h2 {
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
