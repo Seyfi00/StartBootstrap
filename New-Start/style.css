@@ -9,21 +9,33 @@ body .imgbox img {
   width: 100%;
 }
 
-#header .menu {
-  display: flex;
-  justify-content: space-between;
-}
 #header .menu .imgbox {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
-#header .menu nav {
-  color: #864141;
+#header .menu nav a {
+  color: #2c0303;
+  margin: 20px;
 }
 
 #welcome {
-  background-image: url("Assets/header-bg.jpg");
+  background-image: url(Assets/header-bg.jpg);
+  padding: 120px 0;
 }
-#welcome .box h2 {
+#welcome .textbox h1 {
+  font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+}
+#welcome .textbox h2 {
+  color: #ffffff;
+  font-size: 60px;
+}
+#welcome .textbox .btn {
+  background-color: #ffc800;
+  width: 120px;
+  height: 60px;
+}
+#welcome .textbox .btn h3 {
   color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
