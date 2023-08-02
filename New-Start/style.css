@@ -1,6 +1,7 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+  position: relative;
 }
 body .imgbox {
   overflow: hidden;
@@ -12,13 +13,22 @@ body section {
   padding: 100px 0;
 }
 
-#header .menu .imgbox {
-  width: 150px;
+header {
+  width: 100%;
+  z-index: 1;
+  background-color: #212529;
+}
+header .menu .imgbox {
+  width: 220px;
   height: 150px;
 }
-#header .menu nav a {
-  color: #2c0303;
-  margin: 20px;
+header .menu nav a {
+  color: #ffffff;
+  margin: 0 20px;
+  font-size: 18px;
+}
+header .menu nav ahover {
+  color: #e1b106;
 }
 
 #welcome {
@@ -35,15 +45,21 @@ body section {
 }
 #welcome .textbox h1 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 500;
+  margin-top: 18px;
 }
 #welcome .textbox h2 {
   font-size: 80px;
-  margin: 30px 0 60px;
+  margin-top: 32px;
 }
 #welcome .textbox .btn {
   background-color: #ffc800;
-  width: 200px;
-  height: 70px;
-  padding: 35px 25px;
+  width: 220px;
+  height: 60px;
+  padding: 35px 30px;
+  margin-top: 45px;
+  border-radius: 7px;
+}
+#welcome .textbox .btn h3 {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
