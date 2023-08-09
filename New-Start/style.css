@@ -14,21 +14,22 @@ body section {
 }
 
 header {
+  position: fixed;
   width: 100%;
-  z-index: 1;
   background-color: #212529;
 }
 header .menu .imgbox {
-  width: 220px;
-  height: 150px;
+  width: 150px;
+  height: 70px;
 }
 header .menu nav a {
   color: #ffffff;
-  margin: 0 20px;
-  font-size: 18px;
+  margin-right: 40px;
+  font-size: 17px;
 }
-header .menu nav ahover {
+header .menu nav a:hover {
   color: #e1b106;
+  transition: 2s;
 }
 
 #welcome {
