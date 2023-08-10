@@ -29,10 +29,11 @@ header .menu nav a {
 }
 header .menu nav a:hover {
   color: #e1b106;
-  transition: 2s;
+  transition: 0.1s;
 }
 
 #welcome {
+  padding-bottom: 200px;
   background-image: url(Assets/header-bg.jpg);
   background-size: cover;
 }
@@ -45,7 +46,7 @@ header .menu nav a:hover {
   font-weight: 700;
 }
 #welcome .textbox h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 500;
   margin-top: 18px;
 }
@@ -58,9 +59,23 @@ header .menu nav a:hover {
   width: 220px;
   height: 60px;
   padding: 35px 30px;
-  margin-top: 45px;
+  margin-top: 48px;
   border-radius: 7px;
 }
 #welcome .textbox .btn h3 {
+  font-size: 21px;
+}
+#welcome .textbox .btn:hover {
+  background-color: #d9aa00;
+}
+
+#services .textbox h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+#services .textbox h4 {
+  color: #6c757d;
   font-size: 20px;
+  font-weight: 500;
+  margin: 25px 0 40px;
 }/*# sourceMappingURL=style.css.map */
