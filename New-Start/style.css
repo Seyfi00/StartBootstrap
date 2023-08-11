@@ -70,12 +70,37 @@ header .menu nav a:hover {
 }
 
 #services .textbox h1 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
 }
 #services .textbox h4 {
   color: #6c757d;
   font-size: 20px;
   font-weight: 500;
-  margin: 25px 0 40px;
+  margin: 20px 0 40px;
+}
+#services .box {
+  flex-direction: column;
+  padding-top: 35px;
+}
+#services .box .icon {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ffc800;
+}
+#services .box .icon i {
+  color: #ffffff;
+  font-size: 60px;
+}
+#services .box .textbox h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+#services .box .textbox p {
+  color: #6c757d;
+  font-size: 20px;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */
