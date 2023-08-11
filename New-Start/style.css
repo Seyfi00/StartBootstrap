@@ -15,6 +15,7 @@ body section {
 
 header {
   position: fixed;
+  z-index: 1;
   width: 100%;
   background-color: #212529;
 }
@@ -75,7 +76,7 @@ header .menu nav a:hover {
 }
 #services .textbox h4 {
   color: #6c757d;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin: 20px 0 40px;
 }
@@ -103,4 +104,22 @@ header .menu nav a:hover {
   color: #6c757d;
   font-size: 20px;
   line-height: 1.5;
+}
+
+#portfolio .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#portfolio .textbox h3 {
+  color: #6c757d;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0 40px;
+}
+#portfolio .textbox .box .textbox {
+  padding: 25px 0;
+}
+#portfolio .textbox .box .textbox h2 {
+  font-size: 30px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
