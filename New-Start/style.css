@@ -116,10 +116,15 @@ header .menu nav a:hover {
   font-weight: 500;
   margin: 20px 0 40px;
 }
-#portfolio .textbox .box .textbox {
+#portfolio .box .textbox {
   padding: 25px 0;
 }
-#portfolio .textbox .box .textbox h2 {
+#portfolio .box .textbox h2 {
   font-size: 30px;
   font-weight: 600;
+  margin-bottom: 10px;
+}
+#portfolio .box .textbox h4 {
+  color: #6c757d;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
