@@ -7,6 +7,8 @@ header
         .imgbox
             width: 150px
             height: 70px
+        .icon
+            display: none
         nav
             a
                 color: #ffffff
@@ -14,26 +16,24 @@ header
                 font-size: 17px
                 &:hover
                     color: #e1b106
-    @media screen and ( max-width: 991px )
+        
+    @media screen and ( max-width: 992px )
         .menu
             // .imgbox
             .icon
                 display: flex
                 justify-content: space-between
                 align-items: center
-                border: 0.2px solid rgba(104, 103, 103, 0.55)
+                border: 0.2px solid #9b9d9e
                 border-radius: 5px
                 width: 75px
                 height: 35px
                 padding: 10px
-                h1
+                h1, i
                     color: #a9abae
                     font-size: 14px
                     font-weight: 600
-                i
-                    color: #a9abae
-                    font-size: 14px
-                    font-weight: 600
+                &:hover
+                    border: 3px solid #9b9d9e
             nav
                 display: none
-

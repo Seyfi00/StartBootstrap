@@ -23,6 +23,9 @@ header .menu .imgbox {
   width: 150px;
   height: 70px;
 }
+header .menu .icon {
+  display: none;
+}
 header .menu nav a {
   color: #ffffff;
   margin-right: 40px;
@@ -31,26 +34,24 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #e1b106;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   header .menu .icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0.2px solid rgba(104, 103, 103, 0.55);
+    border: 0.2px solid #9b9d9e;
     border-radius: 5px;
     width: 75px;
     height: 35px;
     padding: 10px;
   }
-  header .menu .icon h1 {
+  header .menu .icon h1, header .menu .icon i {
     color: #a9abae;
     font-size: 14px;
     font-weight: 600;
   }
-  header .menu .icon i {
-    color: #a9abae;
-    font-size: 14px;
-    font-weight: 600;
+  header .menu .icon:hover {
+    border: 3px solid #9b9d9e;
   }
   header .menu nav {
     display: none;
