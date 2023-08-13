@@ -75,6 +75,7 @@ header .menu nav a:hover {
   font-size: 45px;
   font-weight: 500;
   margin-top: 18px;
+  font-style: italic;
 }
 #welcome .textbox h2 {
   font-size: 80px;
