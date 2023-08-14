@@ -23,6 +23,9 @@ header .menu .imgbox {
   width: 150px;
   height: 70px;
 }
+header .menu .imgbox img:hover {
+  cursor: pointer;
+}
 header .menu .icon {
   display: none;
 }
@@ -33,6 +36,7 @@ header .menu nav a {
 }
 header .menu nav a:hover {
   color: #e1b106;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   header .menu .icon {
@@ -52,6 +56,7 @@ header .menu nav a:hover {
   }
   header .menu .icon:hover {
     border: 3px solid #9b9d9e;
+    cursor: pointer;
   }
   header .menu nav {
     display: none;
@@ -71,11 +76,13 @@ header .menu nav a:hover {
   color: #ffffff;
   font-weight: 700;
 }
+#welcome .textbox h1:hover, #welcome .textbox h2:hover, #welcome .textbox h3:hover {
+  cursor: auto;
+}
 #welcome .textbox h1 {
   font-size: 45px;
   font-weight: 500;
   margin-top: 18px;
-  font-style: italic;
 }
 #welcome .textbox h2 {
   font-size: 80px;
@@ -91,6 +98,9 @@ header .menu nav a:hover {
 }
 #welcome .textbox .btn h3 {
   font-size: 21px;
+}
+#welcome .textbox .btn h3:hover {
+  cursor: pointer;
 }
 #welcome .textbox .btn:hover {
   background-color: #d9aa00;
