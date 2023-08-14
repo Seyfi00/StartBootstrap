@@ -141,6 +141,9 @@ header .menu nav a:hover {
   font-size: 20px;
   line-height: 1.5;
 }
+#services h1:hover, #services h2:hover, #services h4:hover, #services p:hover {
+  cursor: auto;
+}
 
 #portfolio .textbox h1 {
   font-size: 40px;
