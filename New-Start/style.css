@@ -208,4 +208,42 @@ header .menu nav a:hover {
   font-size: 18px;
   font-weight: 500;
   margin: 20px 0 40px;
+}
+#about .textbox h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 5px 0 10px;
+}
+#about .textbox h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#about .textbox p {
+  font-size: 20px;
+  color: #6c757d;
+  line-height: 1.5;
+}
+#about .imgbox {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  border: 7px solid #e9ecef;
+}
+#about .txtbox {
+  position: relative;
+  background-color: #ffc800;
+}
+#about .txtbox .textbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#about .txtbox .textbox h3 {
+  font-size: 23px;
+  color: #ffffff;
+  line-height: 1.3;
+  margin: 0 35px;
 }/*# sourceMappingURL=style.css.map */
