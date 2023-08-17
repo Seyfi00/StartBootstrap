@@ -113,6 +113,9 @@ header .menu nav a:hover {
   }
 }
 
+#services {
+  padding-top: 100px;
+}
 #services .textbox h1 {
   font-size: 40px;
   font-weight: 700;
@@ -120,7 +123,6 @@ header .menu nav a:hover {
 #services .textbox h4 {
   color: #6c757d;
   font-size: 18px;
-  font-weight: 500;
   margin: 20px 0 40px;
 }
 #services .box {
@@ -128,7 +130,6 @@ header .menu nav a:hover {
   padding-top: 35px;
 }
 #services .box .icon {
-  position: relative;
   width: 120px;
   height: 120px;
   border-radius: 50%;
