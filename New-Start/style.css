@@ -9,9 +9,6 @@ body .imgbox {
 body .imgbox img {
   width: 100%;
 }
-body section {
-  padding: 100px 0;
-}
 
 header {
   position: fixed;
@@ -64,9 +61,11 @@ header .menu nav a:hover {
 }
 
 #welcome {
+  padding-top: 50px;
   padding-bottom: 200px;
-  background-image: url(Assets/header-bg.jpg);
+  background-image: url("Assets/header-bg.jpg");
   background-size: cover;
+  background-position: center;
 }
 #welcome .textbox {
   padding-top: 200px;
@@ -80,13 +79,13 @@ header .menu nav a:hover {
   cursor: auto;
 }
 #welcome .textbox h1 {
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 500;
   margin-top: 18px;
 }
 #welcome .textbox h2 {
-  font-size: 80px;
-  margin-top: 32px;
+  font-size: 60px;
+  margin: 32px 20px 0;
 }
 #welcome .textbox .btn {
   background-color: #ffc800;
@@ -104,6 +103,14 @@ header .menu nav a:hover {
 }
 #welcome .textbox .btn:hover {
   background-color: #d9aa00;
+}
+@media screen and (min-width: 768px) {
+  #welcome .textbox h1 {
+    font-size: 45px;
+  }
+  #welcome .textbox h2 {
+    font-size: 80px;
+  }
 }
 
 #services .textbox h1 {
