@@ -331,4 +331,7 @@ header .menu nav a:hover {
 }
 #logos .imgbox {
   width: 150px;
+}
+#logos .imgbox img:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
