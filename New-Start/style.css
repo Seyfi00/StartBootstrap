@@ -312,6 +312,9 @@ header .menu nav a:hover {
 #team .box .textbox ul li .icon i {
   color: #ffffff;
 }
+#team .box .textbox ul li .icon i:hover {
+  cursor: pointer;
+}
 #team .box .textbox ul li .icon:hover {
   opacity: 0.8;
   cursor: pointer;
