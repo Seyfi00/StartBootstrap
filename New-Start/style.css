@@ -324,4 +324,11 @@ header .menu nav a:hover {
 }
 #team h1:hover, #team h2:hover, #team h3:hover, #team h4:hover, #team p:hover {
   cursor: auto;
+}
+
+#logos {
+  padding: 80px 0;
+}
+#logos .imgbox {
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */
