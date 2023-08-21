@@ -234,15 +234,15 @@ header .menu nav a:hover {
   color: #6c757d;
   line-height: 1.5;
 }
-#about .imgbox {
+#about .box {
+  display: flex;
+  justify-content: space-around;
+}
+#about .box .imgbox {
   border-radius: 50%;
   border: 7px solid #e9ecef;
-}
-@media screen and (min-width: 768px) {
-  #about .box {
-    display: flex;
-    justify-content: space-between;
-  }
+  width: 80px;
+  height: 80px;
 }
 
 #team {
