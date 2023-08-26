@@ -209,6 +209,9 @@ header .menu nav a:hover {
 #about {
   padding: 80px 0;
 }
+#about .textbox {
+  margin-bottom: 100px;
+}
 #about .textbox h1 {
   font-size: 45px;
   font-weight: 700;
@@ -234,11 +237,20 @@ header .menu nav a:hover {
   color: #6c757d;
   line-height: 1.5;
 }
+#about .bigbox {
+  margin-bottom: 30px;
+}
 #about .imgbox {
   border-radius: 50%;
   border: 7px solid #e9ecef;
   width: 170px;
   height: 170px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 750px) {
+  #about .col-sm-6-2 {
+    order: -1;
+  }
 }
 
 #team {
@@ -264,6 +276,7 @@ header .menu nav a:hover {
   border: 9px solid #dfe0e1;
   width: 220px;
   height: 220px;
+  margin-top: 30px;
 }
 #team .box .textbox h2 {
   font-size: 30px;
