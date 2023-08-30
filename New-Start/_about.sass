@@ -11,16 +11,32 @@
         display: flex
         flex-direction: column
         li
-            margin-bottom: 70px
+            margin-bottom: 50px
             display: flex
             justify-content: space-between
-            .imgbox
+            .box
                 width: 80px
                 height: 80px
                 border-radius: 50%
                 border: 7px solid #e9ecef
+                background-color: #ffc800
+                position: relative
+                .imgbox
+                    width: 100%
+                    height: 100%
+                    position: absolute
+                    left: 0
+                    top: 0
+
+            // .imgbox
+            //     width: 80px
+            //     height: 80px
+            //     border-radius: 50%
+            //     border: 7px solid #e9ecef
+            //     // margin-right: 100px
             .textbox
-                width: 80%
+                max-width: 420px
+                padding: 0 30px 0 30px
                 h2
                     font-weight: 600
                     font-size: 25px
