@@ -24,39 +24,42 @@ header .menu .imgbox img:hover {
   cursor: pointer;
 }
 header .menu .icon {
-  #f8cb09display: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.2px solid #404141;
+  border-radius: 5px;
+  width: 75px;
+  height: 35px;
+  padding: 10px;
 }
-header .menu nav a {
-  color: #ffffff;
-  margin-right: 40px;
-  font-size: 17px;
+header .menu .icon h1, header .menu .icon i {
+  color: #a9abae;
+  font-size: 14px;
+  font-weight: 600;
 }
-header .menu nav a:hover {
-  color: #e1b106;
+header .menu .icon:hover {
+  border: 3px solid #9b9d9e;
   cursor: pointer;
 }
-@media screen and (max-width: 992px) {
+header .menu nav {
+  display: none;
+}
+@media screen and (min-width: 992px) {
   header .menu .icon {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 0.2px solid #9b9d9e;
-    border-radius: 5px;
-    width: 75px;
-    height: 35px;
-    padding: 10px;
-  }
-  header .menu .icon h1, header .menu .icon i {
-    color: #a9abae;
-    font-size: 14px;
-    font-weight: 600;
-  }
-  header .menu .icon:hover {
-    border: 3px solid #9b9d9e;
-    cursor: pointer;
+    display: none;
   }
   header .menu nav {
-    display: none;
+    display: flex;
+  }
+  header .menu nav a {
+    color: #ffffff;
+    margin-right: 40px;
+    font-size: 17px;
+  }
+  header .menu nav a:hover {
+    color: #e1b106;
+    cursor: pointer;
   }
 }
 

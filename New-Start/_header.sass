@@ -11,33 +11,36 @@ header
                 &:hover
                     cursor: pointer
         .icon
-            #f8cb09display: none
+            display: flex
+            justify-content: space-between
+            align-items: center
+            border: 0.2px solid #404141
+            border-radius: 5px
+            width: 75px
+            height: 35px
+            padding: 10px
+            h1, i
+                color: #a9abae
+                font-size: 14px
+                font-weight: 600
+            &:hover
+                border: 3px solid #9b9d9e
+                cursor: pointer
         nav
-            a
-                color: #ffffff
-                margin-right: 40px
-                font-size: 17px
-                &:hover
-                    color: #e1b106
-                    cursor: pointer
+            display: none
         
-    @media screen and ( max-width: 992px )
+    
+    @media screen and ( min-width: 992px )
         .menu
             .icon
-                display: flex
-                justify-content: space-between
-                align-items: center
-                border: 0.2px solid #9b9d9e
-                border-radius: 5px
-                width: 75px
-                height: 35px
-                padding: 10px
-                h1, i
-                    color: #a9abae
-                    font-size: 14px
-                    font-weight: 600
-                &:hover
-                    border: 3px solid #9b9d9e
-                    cursor: pointer
-            nav
                 display: none
+            nav
+                display: flex
+                a
+                    color: #ffffff
+                    margin-right: 40px
+                    font-size: 17px
+                    &:hover
+                        color: #e1b106
+                        cursor: pointer
+        
