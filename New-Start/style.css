@@ -207,6 +207,11 @@ header .menu nav {
 #portfolio h1:hover, #portfolio h2:hover, #portfolio h3:hover, #portfolio h4:hover {
   cursor: auto;
 }
+@media screen and (max-width: 576px) {
+  #portfolio .box {
+    max-width: 420px;
+  }
+}
 
 #about .textbox h1 {
   font-size: 45px;
