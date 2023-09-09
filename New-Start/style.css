@@ -222,37 +222,54 @@ header .menu nav {
   font-size: 18px;
   margin: 20px 0 40px;
 }
-#about ul {
+#about .box {
   display: flex;
-  flex-direction: column;
-}
-#about ul li {
   margin-bottom: 50px;
 }
-#about ul li .box {
-  display: flex;
-}
-#about ul li .box .textbox {
-  width: 40%;
-  margin-right: 20px;
-  padding: 0 20px 0 100px;
-}
-#about ul li .box .textbox h2 {
-  font-weight: 600;
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-#about ul li .box .textbox p {
-  font-size: 18px;
-  color: #6c757d;
-  line-height: 1.5;
-}
-#about ul li .box .imgbox {
+#about .box .imgbox {
   width: 170px;
   height: 170px;
   border-radius: 50%;
   border: 7px solid #e9ecef;
   background-color: #ffc800;
+  margin-left: 25px;
+}
+#about .box .img-start {
+  margin-left: 478px;
+}
+#about .box .textbox {
+  max-width: 450px;
+}
+#about .box .textbox h2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#about .box .textbox p {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.5;
+}
+#about .box .text-end {
+  max-width: 450px;
+  padding: 0 20px 0 100px;
+}
+#about .box .text-start {
+  padding: 0 100px 0 20px;
+}
+#about .box .txtbox {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 7px solid #e9ecef;
+  background-color: #ffc800;
+  padding: 15px 40px;
+}
+#about .box .txtbox h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.4;
 }
 
 #team {
