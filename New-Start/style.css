@@ -350,4 +350,39 @@ header .menu nav {
 }
 #logos .imgbox img:hover {
   cursor: pointer;
+}
+
+#contact {
+  background-image: url("Assets/map-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+#contact .textbox h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+#contact .textbox h4 {
+  color: #6c757d;
+  font-size: 18px;
+  margin: 20px 0 40px;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+#contact form input {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 25px 50px 20px 10px;
+  text-align: start;
+  margin-top: 50px;
+}
+#contact form textarea {
+  width: 100%;
+  height: 100%;
+}
+#contact form .name {
+  margin-top: 0px;
 }/*# sourceMappingURL=style.css.map */
