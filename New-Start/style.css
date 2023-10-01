@@ -421,4 +421,12 @@ header .menu nav {
 }
 #contact h1:hover, #contact h4:hover {
   cursor: auto;
-}/*# sourceMappingURL=style.css.map */
+}
+footer {
+  padding: 20px 0;
+}
+footer .textbox h2{
+  font-size: 18px;
+  color: #313132
+}
+/*# sourceMappingURL=style.css.map */
