@@ -523,12 +523,11 @@ header .menu nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 footer .textbox h2 {
   font-size: 18px;
-  color: #6a6868
 }
 
 footer ul {
@@ -537,7 +536,7 @@ footer ul {
 }
 
 footer ul li {
-  margin: 0 10px
+  margin: 0 10px;
 }
 
 footer ul li .icon {
@@ -551,7 +550,7 @@ footer ul li .icon {
 }
 
 footer ul li .icon i {
-  color: #ffffff;
+  color: #ffffff
 }
 
 footer ul li .icon i:hover {
