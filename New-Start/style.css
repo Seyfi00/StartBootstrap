@@ -421,4 +421,42 @@ header .menu nav {
 }
 #contact h1:hover, #contact h4:hover {
   cursor: auto;
+}
+
+footer {
+  padding: 15px 0;
+}
+footer .textbox h2 {
+  font-size: 18px;
+  color: #383636;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+footer ul li {
+  margin: 0 10px;
+}
+footer ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #212529;
+}
+footer ul li .icon i {
+  color: #ffffff;
+}
+footer ul li .icon i:hover {
+  cursor: pointer;
+}
+footer ul li .icon:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+footer ul .minibox {
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */
