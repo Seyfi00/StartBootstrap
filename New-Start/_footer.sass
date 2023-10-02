@@ -1,13 +1,17 @@
 footer
     padding: 15px 0
+    .copyright, .privacy
+        justify-content: center
     .textbox
         h2
             font-size: 18px
             color: #383636
+            &:hover
+                cursor: auto
     ul
         display: flex
         justify-content: center
-        margin: 20px 0
+        margin: 18px 0
         li
             margin: 0 10px
             .icon
@@ -25,5 +29,13 @@ footer
                 &:hover
                     opacity: 0.8
                     cursor: pointer
-        .minibox
-            margin-right: 20px            
+    .minibox
+        margin-right: 20px
+        h2
+            &:hover
+                cursor: pointer
+    @media screen and ( min-width: 992px )
+        .copyright
+            justify-content: flex-start
+        .privacy
+            justify-content: flex-end      

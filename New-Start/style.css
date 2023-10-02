@@ -426,14 +426,20 @@ header .menu nav {
 footer {
   padding: 15px 0;
 }
+footer .copyright, footer .privacy {
+  justify-content: center;
+}
 footer .textbox h2 {
   font-size: 18px;
   color: #383636;
 }
+footer .textbox h2:hover {
+  cursor: auto;
+}
 footer ul {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 18px 0;
 }
 footer ul li {
   margin: 0 10px;
@@ -457,6 +463,17 @@ footer ul li .icon:hover {
   opacity: 0.8;
   cursor: pointer;
 }
-footer ul .minibox {
+footer .minibox {
   margin-right: 20px;
+}
+footer .minibox h2:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  footer .copyright {
+    justify-content: flex-start;
+  }
+  footer .privacy {
+    justify-content: flex-end;
+  }
 }/*# sourceMappingURL=style.css.map */
