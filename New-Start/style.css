@@ -343,7 +343,7 @@ header .menu nav {
 }
 
 #logos {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 #logos .imgbox {
   width: 150px;
@@ -405,11 +405,12 @@ header .menu nav {
 }
 #contact .btn h3 {
   font-size: 21px;
-  color: #ffffff;
+  color: #c0c2c2;
   font-weight: 700;
 }
 #contact .btn h3:hover {
   cursor: pointer;
+  color: #ffffff;
 }
 #contact .btn:hover {
   background-color: #ffc800;
