@@ -10,6 +10,10 @@ body .imgbox img {
   width: 100%;
 }
 
+section {
+  padding: 80px 0;
+}
+
 header {
   position: fixed;
   z-index: 2;
@@ -64,8 +68,7 @@ header .menu nav {
 }
 
 #welcome {
-  padding-top: 50px;
-  padding-bottom: 200px;
+  padding: 50px 0 200px;
   background-image: url("Assets/header-bg.jpg");
   background-size: cover;
   background-position: center;
@@ -85,10 +88,12 @@ header .menu nav {
   font-size: 30px;
   font-weight: 500;
   margin-top: 18px;
+  line-height: 1.1;
 }
 #welcome .textbox h2 {
   font-size: 60px;
   margin: 32px 20px 0;
+  line-height: 1.1;
 }
 #welcome .textbox .btn {
   background-color: #ffc800;
@@ -128,6 +133,7 @@ header .menu nav {
   color: #6c757d;
   font-size: 18px;
   margin: 20px 0 40px;
+  line-height: 1.2;
 }
 #services .box {
   flex-direction: column;
@@ -168,6 +174,7 @@ header .menu nav {
   color: #6c757d;
   font-size: 18px;
   margin: 20px 0 40px;
+  line-height: 1.2;
 }
 #portfolio .box .imgbox {
   position: relative;
@@ -280,11 +287,13 @@ header .menu nav {
 #team .textbox h1 {
   font-size: 45px;
   font-weight: 700;
+  line-height: 1.2;
 }
 #team .textbox h4 {
   color: #6c757d;
   font-size: 18px;
   margin: 20px 0 40px;
+  line-height: 1.2;
 }
 #team .textbox p {
   color: #6c757d;
@@ -354,7 +363,7 @@ header .menu nav {
 }
 
 #contact {
-  background-color: #000000;
+  background-color: #45494c;
   padding: 100px 0;
 }
 #contact .textbox h1 {
@@ -366,6 +375,7 @@ header .menu nav {
   color: #6c757d;
   font-size: 18px;
   margin: 20px 0 60px;
+  line-height: 1.2;
 }
 #contact form {
   display: flex;
@@ -405,12 +415,11 @@ header .menu nav {
 }
 #contact .btn h3 {
   font-size: 21px;
-  color: #c0c2c2;
+  color: #ffffff;
   font-weight: 700;
 }
 #contact .btn h3:hover {
   cursor: pointer;
-  color: #ffffff;
 }
 #contact .btn:hover {
   background-color: #ffc800;
