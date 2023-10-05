@@ -235,6 +235,7 @@ header .menu nav {
   flex-direction: column;
 }
 #about .box {
+  width: 100%;
   display: flex;
   margin-bottom: 50px;
 }
@@ -245,18 +246,30 @@ header .menu nav {
   border: 7px solid #e9ecef;
   background-color: #ffc800;
 }
+#about .box .img-start {
+  margin-left: 13px;
+}
+#about .box .img-end {
+  margin-right: 13px;
+}
 #about .box .textbox {
-  max-width: 450px;
+  max-width: 460px;
 }
 #about .box .textbox h2 {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 #about .box .textbox p {
   font-size: 18px;
   color: #6c757d;
   line-height: 1.5;
+}
+#about .box .text-end {
+  padding: 0 20px 0 130px;
+}
+#about .box .text-start {
+  padding: 0 130px 0 20px;
 }
 
 #team {
