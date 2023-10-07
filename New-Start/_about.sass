@@ -15,7 +15,9 @@
         .imgbox
             order: -1
         .textend
-            text-align: text-start
+            text-align: start
+    .right
+        justify-content: flex-start
     .box
         width: 100%
         display: flex
@@ -26,28 +28,22 @@
             border-radius: 50%
             border: 7px solid #e9ecef
             background-color: #ffc800
-        .img-start
-            margin-left: 13px
-        .img-end
-            margin-right: 13px
         .textbox
-            max-width: 345px
+            max-width: 430px
             h2, h3
                 font-weight: 600
-                font-size: 24px
+                font-size: 26px
                 margin-bottom: 10px
             h3
                 font-weight: 700
             p
-                font-size: 16px
+                font-size: 19px
                 color: #6c757d
                 line-height: 1.5
         .textend
             padding: 0 20px 0 30px
-            margin-left: -60px
         .textstart
             padding: 0 30px 0 20px
-            margin-right: -60px
         .txtbox
             width: 100px
             height: 100px   
@@ -60,15 +56,38 @@
                 font-weight: 600
                 color: #ffffff
                 line-height: 1.3
+    .last
+        justify-content: flex-start
     
     @media screen and ( min-width: 768px )
         .box
             .imgbox
                 width: 100px
                 height: 100px
+            .img-start
+                margin-left: 13px
+            .img-end
+                margin-right: 13px
+            .textbox
+                max-width: 345px
+                h2, h3
+                    font-size: 24px
+                p
+                    font-size: 16px
             .textend
-                text-align: text-end
-
+                margin-left: -60px
+            .textstart
+                margin-right: -60px
+        .left
+            .imgbox
+                order: 1
+            .textend
+                text-align: end
+        .right
+            justify-content: flex-end
+        .last
+            justify-content: center
+            
     @media screen and ( min-width: 992px )
         .box
             .imgbox
