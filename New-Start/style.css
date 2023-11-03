@@ -264,23 +264,23 @@ header .menu nav {
 }
 #about .box .textbox {
   max-width: 400px;
-  margin-right: -40px;
+  margin-right: -100px;
 }
 #about .box .textbox h2, #about .box .textbox h3 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 #about .box .textbox h3 {
   font-weight: 700;
 }
 #about .box .textbox p {
-  font-size: 15px;
+  font-size: 10px;
   color: #6c757d;
   line-height: 1.5;
 }
 #about .box .textend, #about .box .textstart {
-  padding: 0 20px 0 30px;
+  padding: 0 10px 0 15px;
 }
 #about .box .txtbox {
   width: 80px;
@@ -289,7 +289,6 @@ header .menu nav {
   border: 7px solid #e9ecef;
   background-color: #ffc800;
   padding: 8px 18px;
-  margin-left: 30px;
 }
 #about .box .txtbox h5 {
   font-size: 10px;
